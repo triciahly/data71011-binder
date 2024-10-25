@@ -1,0 +1,77 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.1/context",
+    {
+      "@vocab": "http://schema.org/"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "hasPart": [
+        {
+          "@id": "Create README.md"
+        },
+        {
+          "@id": "hello.py"
+        },
+        {
+          "@id": "requirements.txt"
+        },
+        {
+          "@id": "Untitled.ipynb"
+        }
+      ],
+      "datePublished": "2024-10-25",
+      "name": "Hello Dataset",
+      "license": [
+        "",
+        {
+          "@id": "./"
+        }
+      ],
+      "citation": {
+        "@id": "10.5281/zenodo.6532057"
+      }
+    },
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "identifier": "ro-crate-metadata.json",
+      "about": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "Create README.md",
+      "@type": "File",
+      "name": "README",
+      "datePublished": "2024-10-25"
+    },
+    {
+      "@id": "hello.py",
+      "@type": "File",
+      "name": "Hello,py",
+      "datePublished": "2024-10-25"
+    },
+    {
+      "@id": "requirements.txt",
+      "@type": "File",
+      "name": "Requirements",
+      "datePublished": "2024-10-25"
+    },
+    {
+      "@id": "Untitled.ipynb",
+      "@type": "File",
+      "name": "Untitled Numpy",
+      "datePublished": "2024-10-25",
+      "citation": []
+    },
+    {
+      "@id": "10.5281/zenodo.6532057",
+      "@type": "ScholarlyArticle",
+      "name": "10_5281_zenodo_6532057-1"
+    }
+  ]
+}
